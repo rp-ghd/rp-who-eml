@@ -151,3 +151,31 @@ Exiting due to channel error.
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1680878291228	geckodriver	INFO	Listening on 127.0.0.1:52400
+1680878291756	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/64/lf1k04zn3hgc5j8fn640g_n80000gn/T/rust_mozprofileK5aLov"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680878292273	Marionette	INFO	Marionette enabled
+1680878292351	Marionette	INFO	Listening on port 52408
+Read port: 52408
+console.error: "Warning: unrecognized command line flag -disable-notifications\n"
+console.error: "Warning: unrecognized command line flag -verbose\n"
+2023-04-07 15:38:12.411 plugin-container[18666:1414468] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-07 15:38:12.412 plugin-container[18666:1414468] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-07 15:38:12.419 plugin-container[18666:1414468] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-07 15:38:12.419 plugin-container[18666:1414468] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-07 15:38:12.420 plugin-container[18666:1414475] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-07 15:38:12.420 plugin-container[18666:1414475] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:52401
+1680878292932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/64/lf1k04zn3hgc5j8fn640g_n80000gn/T/rust_mozprofileK5aLov/search.json.mozlz4", (void 0)))
+2023-04-07 14:38:14.300 plugin-container[18679:1414703] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-07 14:38:14.300 plugin-container[18679:1414703] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-07 14:38:14.304 plugin-container[18679:1414703] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-07 14:38:14.304 plugin-container[18679:1414703] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-04-07 14:38:14.304 plugin-container[18679:1414706] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-04-07 14:38:14.304 plugin-container[18679:1414706] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:52401/devtools/browser/7f2d4e4d-826f-4858-ab84-428754f5fd92
+1680878364028	Marionette	INFO	Stopped listening on port 52408
